@@ -1,5 +1,6 @@
 # Ecom
 Full Stack E-Commerce website with Angular and Java Spring Boot
+But i have quick training on typescript and angular and Spring Boot that you can use as reference 
 
 # typescript-training
 
