@@ -24,3 +24,7 @@ run  `ng new appName --directory ./`
 Install Bootstrap to your project
 run `npm i bootstrap` and configure it on your angular.json file under
 "styles": ["./node_modules/bootstrap/dist/css/bootstrap.min.css", "src/styles.css" ],
+
+Web browser will not allow script code to call APIs not on same origin
+Known as Same-origin policy
+Same-origin policy is composed of: scheme/protocol/, hostname, port number, pathname, search, hash
