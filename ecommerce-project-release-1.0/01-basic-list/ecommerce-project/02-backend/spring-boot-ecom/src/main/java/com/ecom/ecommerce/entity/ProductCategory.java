@@ -1,16 +1,15 @@
 package com.ecom.ecommerce.entity;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Table(name="product_category")
-// @Data -- known bug
-@Getter
-@Setter
+@Data
+//@Getter
+//@Setter
 public class ProductCategory {
 
     @Id
